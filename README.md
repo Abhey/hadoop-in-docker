@@ -1,5 +1,5 @@
 # Hadoop In Docker
-This project is for anyone who wants to learn Apache Hadoop and needs to spawn a multinode Apache Hadoop 3.2 cluster.
+This project is for anyone who wants to learn Apache Hadoop and needs to spawn a 3-node Apache Hadoop 3.2 cluster.
 
 ![Hadoop In Docker Logo](assests/hadoop_in_docker.jpg)
 
