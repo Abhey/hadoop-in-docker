@@ -32,6 +32,6 @@ COPY hadoop_workers.dat /hadoop/etc/hadoop/workers
 # MapReduce JobHistoryServer Default HTTP Web UI Port - 19888
 # HDFS NameNode Web UI Port - 50070
 
-EXPOSE 8088 19888 50070
+EXPOSE 8088 9870 19888 50070
 
 CMD ["/usr/sbin/sshd", "-D"]
