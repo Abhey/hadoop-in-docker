@@ -22,4 +22,8 @@
 		<value>hdfs://hadoop-master</value>
 		<description>NameNode URI</description>
 	</property>
+	<property>
+		<name>yarn.resourcemanager.hostname</name>
+  		<value>hadoop-master</value>
+	</property>
 </configuration>
