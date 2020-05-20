@@ -15,7 +15,7 @@ if [[ $? == 0 ]]; then
     echo 'Removing namenode instance.'
     docker rm hadoop-master
 fi
-    docker run -itd --network hadoop-net -p 9870:9870 -p 8088:8088 -p 19888:19888 --name hadoop-master -h hadoop-master uselesscoder/hadoop-in-docker:latest
+    docker run -itd --network hadoop-net -p 9870:9870 -p 8088:8088 -p 19888:19888 -p 8031:8031 --name hadoop-master -h hadoop-master uselesscoder/hadoop-in-docker:latest
 
 # Running container image of hadoop-in-docker for Hadoop-Slave-1.
 docker container ls | grep 'hadoop-slave-1' &> /dev/null
