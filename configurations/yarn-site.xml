@@ -29,7 +29,7 @@
 	</property>
 	<property>
    		<name>yarn.resourcemanager.scheduler.address</name>
-   	<value>hadoop-master:8030</value>
+   		<value>hadoop-master:8030</value>
 	</property>
 	<property>
 		<name>yarn.resourcemanager.address</name>
